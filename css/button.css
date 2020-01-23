@@ -1,0 +1,22 @@
+/*------------------------------*/
+/* BUTTON                       */
+/* ---------------------------- */
+
+.btn {
+    display: inline-block;
+    min-width: 8.063rem;
+    min-height: 2.25rem;
+    padding: 10px 23px;
+    border: 0.58px solid #5b6b82;
+    border-radius: 2.32px;
+    color: #5b6b82;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.card:hover > .btn {
+    border: 2.32px solid #3ccf8e;
+    background-color:  #3ccf8e;
+    color: white;
+
+}

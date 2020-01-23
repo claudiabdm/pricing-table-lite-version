@@ -1,0 +1,59 @@
+/* ---------------------------- */
+/* PROFILE                      */
+/* ---------------------------- */
+
+.profiles {
+    display: block;
+    padding: 60px 0px 120px 0px;
+    text-align: center;
+}
+
+.profiles--main {
+    border-top: 1px solid #e8e8e8;
+    margin: 0px 153px 60px 154px;
+}
+
+
+.profile {
+    display: inline-block;
+    height: 15.5rem;
+    width: 16.125rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 50%;
+    margin-right:40.5px;
+    padding: 37px 44px;
+}
+
+.profile:hover {
+    border: 8px double #e2e2e2;
+}
+
+.profile__img {
+    margin-bottom: 10px;
+}
+
+.profile__name {
+    display: inline-block;
+    border-radius: 4px;
+    background-color:#e0e0e0;
+    height: 2.813rem;
+    width: 9.625rem;
+    padding: 16px 0px 11px 0px;
+}
+
+
+.profile:hover > .profile__name {
+    border: 4px solid #e2e2e2;
+    background-color: #f8f8f8;
+}
+
+
+.profile__txt {
+    display: inline;
+    font-size: 0.875rem;
+    text-transform: capitalize;
+}
+
+.profile__txt--up {
+    text-transform: uppercase; 
+}

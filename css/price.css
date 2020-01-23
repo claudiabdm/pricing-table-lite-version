@@ -1,0 +1,25 @@
+/*------------------------------*/
+/* CARD                         */
+/* ---------------------------- */
+
+.price {
+    display: inline-flex;
+    align-items: center;
+    margin: 20px;
+}
+.price__currency {
+    font-size: 1rem;
+    color: #242f40;
+    margin-right: 5px;
+}
+
+.price__number {
+    color: #242f40;
+    font-size: 2.188rem;
+    font-weight: 700;
+    margin-right: 5px;
+}
+
+.price__time {
+    font-size: 0.875rem;
+}

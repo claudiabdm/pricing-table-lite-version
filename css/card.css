@@ -1,0 +1,24 @@
+/*------------------------------*/
+/* CARD                         */
+/* ---------------------------- */
+
+.card {
+    display: inline-block;
+    height: 330px;
+    width: 223px;
+    padding: 40px 18px 39px 24px;
+    background-color: #fff;
+    box-shadow: -1px 1px 20px 1px #00000018;
+    text-align: center;
+}
+
+.card:hover {
+    border: 2px solid #3ccf8e;
+}
+
+.card__list {
+    list-style: none inside url("../img/check-mark-button.svg");
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 36px;
+}
