@@ -3,7 +3,7 @@
 /* ---------------------------- */
 
 .price {
-    display: inline-flex;
+    display: inline-block;
     align-items: center;
     margin: 20px;
 }
