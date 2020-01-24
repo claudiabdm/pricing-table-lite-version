@@ -4,8 +4,9 @@
 
 .card {
     display: inline-block;
-    height: 330px;
-    width: 223px;
+    height: 20.625rem;
+    width: 13.938rem;
+    margin-left: -4px;
     padding: 40px 18px 39px 24px;
     background-color: #fff;
     box-shadow: -1px 1px 20px 1px #00000018;
@@ -13,12 +14,13 @@
 }
 
 .card:hover {
+    position: relative;
     border: 2px solid #3ccf8e;
 }
 
 .card__list {
     list-style: none inside url("../img/check-mark-button.svg");
-    line-height: 24px;
+    line-height: 1.35;
     text-align: left;
     margin-bottom: 36px;
 }
